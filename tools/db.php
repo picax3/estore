@@ -6,10 +6,10 @@ function getDatabaseConnection() {
     $password = "";
     $database = "beststoredb";
     */
-    $servername = "lsql100.byethost13.com";
-    $username = "b13_37181280";
-    $password = "Mu773r2001";
-    $database = "b13_37181280_beststoredb";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $database = "";
     // Create connection
     $connection = new mysqli($servername, $username, $password, $database);
     if($connection->connect_error){
